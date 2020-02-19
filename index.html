@@ -11,6 +11,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+			
+		<script class="randomquote" type="text/javascript">
+			writeRandomQuote = function () {
+			  var quotes = new Array();
+			  quotes[0] = "Things work out best for those who make the best of how things work out. --John Wooden";
+			  quotes[1] = "If you are not willing to risk the usual you will have to settle for the ordinary. --Jim Rohn";
+			  quotes[2] = "All our dreams can come true if we have the courage to pursue them. --Walt Disney";
+			  quotes[3] = "Success is walking from failure to failure with no loss of enthusiasm. --Winston Churchill";
+			  var rand = Math.floor(Math.random()*quotes.length);
+			  document.write(quotes[rand]);
+			}
+		</script>
+		
+
 	</head>
 	<body class="is-preload">
 
@@ -21,7 +36,7 @@
 					<section class="banner style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
 							<h1>Tanner Williams</h1>
-							<p class="major">I am a full stack web developer, enrolled at Lambda school! Mixing my love for learning and technology.</p>
+							<p class="major">I am a full stack web developer student, at Lambda school! Here, I get to mix my love for learning and technology.</p>
 							<ul class="actions stacked">
 								<li><a href="#first" class="button big wide smooth-scroll-middle">View Projects</a></li>
 							</ul>
@@ -74,6 +89,9 @@
 					</section>
 					</section>
 
+					<div class="random-quote">			
+						<script type="text/javascript">writeRandomQuote();</script>
+					</div>
 
 				<!-- Footer -->
 					<footer class="wrapper style1 align-center">

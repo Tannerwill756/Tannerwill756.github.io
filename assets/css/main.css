@@ -8601,3 +8601,11 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+/* Random quote generator styling */
+.random-quote{
+	margin-top:5%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
